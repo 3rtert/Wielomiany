@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    tools:context="com.example.ernest.wielomian.Zadanie">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="33dp"
+        tools:text="1. Funkcja liniowa (1/4)" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="15sp"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="23sp"
+        tools:text="Treść zadania " />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:text="y=2x+8" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="20sp"
+        android:text="Pytania:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:text="Pytania:" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10sp"
+        android:onClick="jakRozwiazac"
+        android:text="Jak to rozwiązać?"
+        android:textSize="17sp"
+        tools:text="Jak to rozwiązać?" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10sp"
+        android:onClick="podpowiedz"
+        android:text="Podpowiedź"
+        android:textSize="17sp"
+        tools:text="Podpowiedź" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="20sp"
+        android:text="Pytanie1"
+        android:textColor="@android:color/black"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20sp"
+        android:text="Pytanie2"
+        android:textColor="@android:color/black"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20sp"
+        android:text="Pytanie3"
+        android:textColor="@android:color/black"
+        android:textSize="23sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginRight="10sp"
+        android:layout_toEndOf="@+id/textView"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:selectAllOnFocus="false" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginRight="10sp"
+        android:layout_toEndOf="@+id/textView2"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:selectAllOnFocus="false" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_marginRight="10sp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:selectAllOnFocus="false" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginBottom="10sp"
+        android:onClick="zakonczZadanie"
+        android:text="Zakończ zadanie"
+        android:textSize="17sp" />
+</RelativeLayout>
