@@ -8,7 +8,10 @@ Instalacja:
  
 Konieczne może  być pozwolenie w ustawieniach instalacji aplikacji z nieznanych źródeł. Opcja znajduje się w zakładce „zabezpieczenia” w ustawieniach telefonu. 
 
-#Polynomials
+
+
+# Polynomials
+
 RESPONSIVE EDUCATIONAL APPLICATION WITH THE GAMIFICATION SUPPORTING THE TEACHING OF THE SELECTED SUBJECT ON THE ANDROID TECHNOLOGICAL PLATFORM
 
 Instalation:
